@@ -1,0 +1,273 @@
+/* General Body Styling */
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: aqua;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    background-color: #fff;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.venture-card {
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.venture-card img {
+    width: 100%;
+    height: auto;
+}
+
+.venture-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+
+.bg{
+    background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
+}
+
+
+
+  /* Hero Section */
+.hero-section2 {
+    height: 100vh;
+    display: flex;
+  }
+  
+  .hero-section2 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section2 h1 span {
+    color: #00aaff;
+  }
+  
+  .hero-section2 .btn {
+    font-size: 1.2rem;
+    border-radius: 25px;
+  }
+
+
+
+
+
+
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 2px;
+    background-color: #007bff;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.logo-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-image: url('https://via.placeholder.com/1368x410'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    max-width: 1368px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .founders-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.founders-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.founder-card {
+    background-color: #222;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.founder-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.founder-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.founder-card p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.founder-signature {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signature {
+    margin-left: auto;
+    font-size: 1rem;
+    font-family: 'Cursive';
+}
+
+
+
+
+
+
+
+ .card20{
+    margin-top: 100px;
+ }
+
+
+
+
+
+  /* Footer Section */
+.footer-section {
+    padding: 2rem 0; /* Padding for spacing */
+  }
+  
+  .footer-section h5, .footer-section h6 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.8; /* Slight transparency for links */
+    transition: opacity 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    opacity: 1; /* Full visibility on hover */
+  }
+  
+  .footer-section p, .footer-section hr {
+    color: #cccccc;
+    font-size: 0.9rem;
+  }
+  
+  .footer-section hr {
+    border-top: 1px solid #555;
+    margin-top: 2rem;
+  }
+  
+  .footer-section p.text-center {
+    margin-top: 1rem;
+}
+
+
+
+
+
