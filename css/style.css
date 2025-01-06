@@ -210,11 +210,11 @@ body {
   }
   
   .venture-card {
-    background-color: #444;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     text-align: left;
+    margin-bottom: 30px;
   }
   
   .venture-card img {
@@ -287,6 +287,7 @@ body {
 
 /* Testimonial Section */
 .testimonial-section {
+    background-color: #333;
     color: #ffffff;
   }
   
@@ -307,11 +308,17 @@ body {
     background-color: #f5f6f6;
     text-align: right;
   }
+  .cd{
+    max-width: 1030px;
+    min-height: 330px;
+  }
   
   blockquote {
+    
     font-size: 1.2rem;
     font-style: italic;
     line-height: 1.8;
+    margin-top: 100px;
   }
   
   blockquote strong {
@@ -354,11 +361,15 @@ body {
   /* Hero Section */
 .hero-section2 {
     height: 100vh;
-    display: flex;
   }
   
+  .hero-section2 h2 {
+    font-size: 75px;
+    text-align: left;
+  }
   .hero-section2 h1 {
-    font-size: 3rem;
+    font-size: 150px;
+    text-align: left;
     font-weight: bold;
   }
   
@@ -367,13 +378,12 @@ body {
   }
   
   .hero-section2 .btn {
-    font-size: 1.2rem;
-    border-radius: 25px;
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-top: 92px;
   }
-
-
-
-
 
 
 
