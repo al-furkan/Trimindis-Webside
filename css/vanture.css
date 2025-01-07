@@ -188,6 +188,21 @@ body {
     text-align: right;
     margin-right: 99px;
 }
+/* Hero Section */
+.hero-section2 {
+  height: 100vh;
+}
+
+.hero-section2 h2 {
+  font-size: 75px;
+  text-align: left;
+}
+.hero-section2 h1 {
+  font-size: 150px;
+  text-align: left;
+  font-weight: bold;
+}
+
 
 .founder-card { 
   max-width: 1123px;
@@ -200,6 +215,15 @@ body {
 .founder-card .cn{
   width: 50%;
   margin: auto;
+}
+.cn h4{
+  text-align: left;
+}
+.cn h5{
+  text-align: left;
+}
+.cn p{
+  text-align: left;
 }
 
 .founder-card img {
