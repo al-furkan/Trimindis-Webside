@@ -1,44 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TriMindis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
-    <link rel="stylesheet" href="./css/vanture.css">
-    <style>
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TriMindis</title>
+  <!-- Include Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/vanture.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-custom {
+      width: 95%;
+      background: #333;
+    }
+    .navbar-brand{
+      width: 25%; /* Adjust logo size */
+      margin-left: 10%;
+    }
+    .navbar-brand img {
+      width: 100%; /* Adjust logo size */
+      
+    }
+
+    .nav-link {
+      color: #fff !important;
+      padding: 0 15px;
+    }
+
+    .nav-link:hover {
+      color: #00bcd4 !important; /* Optional hover effect */
+    }
+
+    .btn-custom {
+      color: #fff;
+      border: 1px solid #fff;
+      margin-right: 10%;
+    }
+
+    .btn-custom:hover {
+      background-color: #7df391;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="./index.html">
-            <img src="./image/1b9c460a19ee3114811b6bab4749a92b.png" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="./image/1b9c460a19ee3114811b6bab4749a92b.png" alt="Logo" />
+      </a>
 
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./ourVentures.html">Our Ventures</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./aboutUs.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contactUs.html">Contacts</a>
-                </li>
-            </ul>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="button">Work with us</button>
-        </div>
-    </nav>
+      <!-- Toggle button for mobile view -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3"> <!-- Positioned to the right -->
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ourVentures.html">Our Ventures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactUs.html">Contacts</a>
+          </li>
+        </ul>
+        <!-- Button Positioned to the Far Right -->
+        <a class="btn btn-custom" href="#" >Work with Us</a>
+      </div>
+    </div>
+  </nav>
+
 
 
 
@@ -53,7 +110,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-6 mb-4 card10">
                     <div class="card venture-card">
-                        <img src="./image/4fd2cca93d1e583b444d6d92dfbb022e.jpg" alt="BitSpark IT">
+                        <img src="./image/Container.png" alt="BitSpark IT">
                         <div class="card-body">
                             <h5 class="card-title">BitSpark IT</h5>
                             <a href="#" class="btn btn-outline-light">View Full Project</a>
@@ -62,7 +119,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 mb-4 card20">
                     <div class="card venture-card">
-                        <img src="./image/4fd2cca93d1e583b444d6d92dfbb022e.jpg" alt="Chef">
+                        <img src="./image/c18a57a9f36276589ade30af3a96a188.png" alt="Chef">
                         <div class="card-body">
                             <h5 class="card-title">Chef</h5>
                             <a href="#" class="btn btn-outline-light">View Full Project</a>
@@ -71,7 +128,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 mb-4 card10">
                     <div class="card venture-card">
-                        <img src="./image/4fd2cca93d1e583b444d6d92dfbb022e.jpg" alt="Mindis">
+                        <img src="./image/04c4e6a0b60c26d1c758b22ebe383617.png" alt="Mindis">
                         <div class="card-body">
                             <h5 class="card-title">Mindis</h5>
                             <a href="#" class="btn btn-outline-light">View Full Project</a>
@@ -80,7 +137,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 mb-4 card20">
                     <div class="card venture-card">
-                        <img src="./image/4fd2cca93d1e583b444d6d92dfbb022e.jpg" alt="Open Group">
+                        <img src="./image/3a142e68bddf542d11f20bd69d4c5b79.jpg" alt="Open Group">
                         <div class="card-body">
                             <h5 class="card-title">Open Group</h5>
                             <a href="#" class="btn btn-outline-light">View Full Project</a>
@@ -162,10 +219,7 @@
 
 
 
-
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

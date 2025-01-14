@@ -1,49 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 /* General Body Styling */
 body {
-    background-color: #1a1a1a;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  font-family: "Space Grotesk", serif;
 }
-
-/* Navbar Styling */
-.navbar {
-    background-color: #000;
+.btn{
+color: #fff;
+border: 1px solid #fff;
 }
-
-.navbar-brand {
-    width: 200px;
-}
-
-.navbar-brand img {
-    width: 100%;
-}
-
-.navbar-nav .nav-link {
-    color: #fff;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-    color: aqua;
-}
-
-.btn-outline-success {
-    color: #fff;
-    border-color: #28a745;
-}
-
-.btn-outline-success:hover {
-    background-color: #28a745;
-    color: #fff;
-}
-.navbar-toggler:focus, .navbar-toggler:hover {
-    background-color: #fff;
-    color: #333333;
-    text-decoration: none;
-}
-
-
 
 
 .hero-section {
@@ -57,7 +24,7 @@ body {
 }
 
 .venture-card {
-    background-color: #222;
+    background-color: #333;
     border: none;
     border-radius: 10px;
     overflow: hidden;
@@ -80,7 +47,13 @@ body {
 }
 
 .card-body {
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card-body h5{
+  color: #fff;
 }
 
 
@@ -300,6 +273,11 @@ body {
 .contact-info a:hover {
   text-decoration: underline;
 }
+form{
+  padding: 44px;
+  border: 1px solid #fff;
+
+}
 .form-section h4 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -312,22 +290,29 @@ body {
 .form-control {
   background-color: #444; /* Dark input background */
   color: white;
-  border: 1px solid #555;
+  border: none;
+  
+  border-bottom: 1px solid #555;
+
 }
 .form-control:focus {
   background-color: #555;
   color: white;
   border-color: #007bff;
 }
+
 .form-check-label {
   font-size: 0.9rem;
 }
 .btn-submit {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  width: 100%;
-  padding: 10px;
+color: #4CA3BA;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.7px;
 }
 .btn-submit:hover {
   background-color: #0056b3;

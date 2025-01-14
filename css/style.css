@@ -1,47 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
 /* General Body Styling */
 body {
-    background-color: #1a1a1a;
+    background-color: #333;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Space Grotesk", serif;
     margin: 0;
-}
 
-/* Navbar Styling */
-.navbar {
-    background-color: #000;
 }
-
-.navbar-brand {
-    width: 200px;
-}
-
-.navbar-brand img {
-    width: 100%;
-}
-
-.navbar-nav .nav-link {
-    color: #fff;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-    color: aqua;
-}
-
-.btn-outline-success {
-    color: #fff;
-    border-color: #28a745;
-}
-
-.btn-outline-success:hover {
-    background-color: #28a745;
-    color: #fff;
-}
-.navbar-toggler:focus, .navbar-toggler:hover {
-    background-color: #fff;
-    color: #333333;
-    text-decoration: none;
-}
+ .btn{
+  color: #fff;
+  border: 1px solid #fff;
+ }
 
 /* Hero Section Styling */
 .hero-section {
@@ -135,7 +108,11 @@ body {
     background-color: #fff;
     margin-top: 35px;
   }
-  
+  hr{
+    border: 2px solid #fff;
+    width: 80%;
+    margin: auto;
+  }
   .section-text {
     width: 50%;
     font-size: 21.5px;
@@ -174,7 +151,7 @@ body {
     }
   
     .btn-learn-more {
-      display: block;
+      
       margin: 0 auto;
       text-align: center;
     }
@@ -353,7 +330,7 @@ body {
 
   .bg{
     background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
-
+ z-index: -1;
   }
 
 
@@ -427,6 +404,34 @@ body {
   .footer-section p.text-center {
     margin-top: 1rem;
   }
+
+
+  
+  .bdg {
+    width: 100%; /* Use full width if required */
+    height: 300px; /* Adjust the height as needed */
+    background-color: #333; /* Ensure contrast with the text */
+    position: relative;
+    overflow: hidden; /* Hide parts of the text that overflow */
+   
+
+  }
+  
+  .bdg h1 {
+    position: absolute;
+    font-size: 300px;
+    
+    color: #fff; /* Text color for visibility */
+    opacity: 0.3; /* Semi-transparent effect */
+    letter-spacing: 9px;
+    transform: translate(-50%, -50%); /* Center alignment */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    text-align: center;
+    pointer-events: none; /* Ensure it doesn’t block clicks */
+  }
+  
+  
 
 
 
