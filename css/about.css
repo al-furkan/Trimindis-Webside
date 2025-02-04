@@ -1,4 +1,13 @@
-
+h2{
+    color: #FFF;
+    text-align: right;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px; /* 267.857% */
+    letter-spacing: -6.25px;  
+}
 
 .about-section {
     text-align: center;
@@ -76,7 +85,6 @@
     margin-top: 75px;
 }
 .hederh h2{
-max-width: 480px;
 color: #FFF;
 font-family: "Space Grotesk";
 font-size: 64px;
@@ -84,6 +92,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 150px; /* 234.375% */
 letter-spacing: -6.25px;
+float: right;
 }
 
 
@@ -128,9 +137,13 @@ letter-spacing: -6.25px;
 }
 
 .core-values h2 {
-    border-bottom: 2px solid white;
-    display: inline-block;
-    padding-bottom: 5px;
+color: #FFF;
+font-family: "Space Grotesk";
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 150px; /* 267.857% */
+letter-spacing: -6.25px;
 }
 
 .core-values .row {

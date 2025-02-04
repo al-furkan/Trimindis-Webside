@@ -151,17 +151,8 @@ text-align: left;
     margin-bottom: 50px;
   }
   
-  .hr .divider {
-    width: 60%;
-    color :#fff;
-    background-color: #fff;
-    margin-top: 35px;
-  }
-  hr{
-    border: 2px solid #fff;
-    width: 80%;
-    margin: auto;
-  }
+
+
   .section-text {
     color: #FFF;
     font-family: Inter;
@@ -189,6 +180,12 @@ text-align: left;
   .btn-learn-more:hover {
     color: aqua;
   }
+
+
+
+
+
+
   
   /* Responsive Adjustments */
   @media (max-width: 768px) {
@@ -208,6 +205,107 @@ text-align: left;
       text-align: center;
     }
   }
+
+
+
+  
+  /****************** Services We Offer**************/
+  .text-left{
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+  }
+  .service-item { 
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+}
+  .service-item  .tittle-text{  
+    color: #7D7D82;
+    font-family: "Space Grotesk";
+    font-size: 63.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 119.216% */
+  }
+  .service-item  .tittle-text span{
+color: #05C2F4;
+font-family: "Space Grotesk";
+font-size: 23.625px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.2px; /* 132.063% */
+text-align: center;
+  }
+
+  
+
+.service-item:hover {
+    background-color: #333;
+}
+.service-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    margin: auto;
+    font-size: 23.625px;
+    
+}
+
+.service-item:hover + .service-content {
+    max-height: 300px;
+}
+.service-img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+.service-item:hover .service-img {
+    transform: scale(1.1) rotate(-10deg);
+    width: 220px;
+    height: 150px;
+    
+}
+
+
+
+
+
+.dvr{
+  border-bottom: 2px solid gray;
+  margin: 20px 0;
+}
+
+
+@media (min-width: 768px) {
+  .service-item {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+  }
+  .service-content {
+      text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* what we Offer */
@@ -243,8 +341,7 @@ line-height: 48.75px; /* 87.054% */
 }
 
 .service-card h4{
-  color: #FFF;
-
+color: #FFF;
 font-family: "Space Grotesk";
 font-size: 26px;
 font-style: normal;
@@ -534,33 +631,6 @@ margin-bottom: 80px;
   }
 
 
-
-  /* Hero Section */
-.hero-section2 {
-    min-height: 60vh;
-  }
-  
-  .hero-section2 h2 {
-    font-size: 75px;
-    text-align: left;
-  }
-  .hero-section2 h1 {
-    font-size: 150px;
-    text-align: left;
-    font-weight: bold;
-  }
-  
-  .hero-section2 h1 span {
-    color: #00aaff;
-  }
-  
-  .hero-section2 .btn {
-    width: 300px;
-    font-size: 18px;
-    border: 1px solid #fff;
-    border-radius: 8px;
-    margin-top: 92px;
-  }
 
 
 

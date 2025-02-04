@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.services-list {
+    transition: transform 0.3s ease;
+}
+
+.service {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.service:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.service-title {
+    color: #007bff;
+}

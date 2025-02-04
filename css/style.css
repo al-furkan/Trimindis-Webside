@@ -60,6 +60,32 @@ body {
   background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
 }
 
+ /* Hero Section */
+ .hero-section2 {
+  min-height: 60vh;
+}
+
+.hero-section2 h2 {
+  font-size: 75px;
+  text-align: left;
+}
+.hero-section2 h1 {
+  font-size: 150px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hero-section2 h1 span {
+  color: #00aaff;
+}
+
+.hero-section2 .btn {
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin-top: 92px;
+}
 
 
 
@@ -67,8 +93,8 @@ body {
   /* Footer Section */
   .footer-section {
     padding: 2rem 0; /* Padding for spacing */
+    position: relative;
   }
-  
   .footer-section h5, .footer-section h6 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -134,7 +160,30 @@ body {
 .logo img{
   width: 80%;
 }
+.footer-section .text-right{
+text-align: center;
+
 }
+.footer-section .list-unstyled{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+}
+.lastlogo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.lastlogo img{
+  width: 95%;
+  height: 100%;
+  padding: 0px 33px;
+}
+
+
+
+
 
 
 
