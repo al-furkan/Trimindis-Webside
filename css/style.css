@@ -1,371 +1,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
-
-
-/* General Body Styling */
 body {
-    background-color: #333;
-    color: white;
-    font-family: "Space Grotesk", serif;
-    margin: 0;
-
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #333;
+  color: white;
+  font-family: "Space Grotesk", serif;
+  margin: 0;
 }
- .btn{
+
+.navbar-custom {
+  width: 100%;
+  background: #333;
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 82px;
+}
+.navbar-brand{
+  width: 15%; /* Adjust logo size */
+  margin-left: 10%;
+
+  
+}
+.navbar-brand img {
+  width: 100%; /* Adjust logo size */
+ 
+  
+}
+
+.nav-link {
+  color: #fff !important;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #00bcd4 !important; /* Optional hover effect */
+}
+
+.btn-custom {
   color: #fff;
   border: 1px solid #fff;
- }
-
-/* Hero Section Styling */
-.hero-section {
-    background: url('../image/20fba5cf1e48adc294dd556e6ad88404.jpeg') no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
+  margin-right: 10%;
 }
 
-.hero-section:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
+.btn-custom:hover {
+  background-color: #7df391;
 }
+/* General Body Styling */
 
-.hero-section .container {
-    z-index: 2;
-    position: relative;
-}
 
-.hero-section h1 {
-    color: #ffffff;
-    line-height: 1.5;
-    font-size: 64px;
-    text-align: left;
-}
 
-.hero-section p {
-    width: 75%;
-    color: #dcdcdc;
-    font-size: 29px;
-    text-align: left;
-    margin-top: 1rem;
-}
 
-.hero-section .btn {
-    font-size: 1.25rem;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    text-decoration: none;
-}
-
-.hero-section .btn:hover {
-    color: aqua;
+.bg{
+  background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
 }
 
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .hero-section h1 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .hero-section p {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .sr {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-.about-us-section {
-    background-color: #333;
-    border-radius: 10px;
-    padding: 40px 20px;
-  }
-  .hr{
-    display: flex;
-    justify-content: space-between;
-  }
-  .hr .section-title {
-    
-    font-size: 56px;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 50px;
-  }
-  
-  .hr .divider {
-    width: 60%;
-    color :#fff;
-    background-color: #fff;
-    margin-top: 35px;
-  }
-  hr{
-    border: 2px solid #fff;
-    width: 80%;
-    margin: auto;
-  }
-  .section-text {
-    width: 50%;
-    font-size: 21.5px;
-    line-height: 1.8;
-  }
-  
-  .highlight {
-   
-    background:  rgb(73, 114, 114);
-    font-weight: 600;
-  }
-  
-  .btn-learn-more {
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 2px solid #fff;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-  }
-  
-  .btn-learn-more:hover {
-    color: aqua;
-    border-bottom: 2px solid #fff;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .section-title {
-      font-size: 2rem;
-      text-align: center;
-    }
-  
-    .section-text {
-      font-size: 1rem;
-      text-align: center;
-    }
-  
-    .btn-learn-more {
-      
-      margin: 0 auto;
-      text-align: center;
-    }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-  .our-ventures-section {
-    background-color: #333;
-    border-radius: 10px;
-    padding: 40px 20px;
-  }
-  
-  .section-title {
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  .divider {
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
-    width: 50px;
-    margin: 0 auto;
-  }
-  
-  .venture-card {
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
-    text-align: left;
-    margin-bottom: 30px;
-  }
-  
-  .venture-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .venture-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-  }
-  
-  .venture-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-  
-  .venture-link {
-    font-size: 1rem;
-    color: aqua;
-    text-decoration: none;
-    border-bottom: 1px solid aqua;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-  }
-  
-  .venture-link:hover {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-  }
-  
-  .btn-more-projects {
-    font-size: 1.2rem;
-    color: white;
-    border: 1px solid rgb(246, 246, 246);
-    padding: 10px 20px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    margin-top: 50px;
-  }
-  
-  .btn-more-projects:hover {
-    background-color: aqua;
-    color: #1a1a1a;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .venture-title {
-      font-size: 1.2rem;
-    }
-  
-    .venture-link {
-      font-size: 0.9rem;
-    }
-  
-    .btn-more-projects {
-      font-size: 1rem;
-    }
-  }
-
-
-
-
-
-
-
-
-/* Testimonial Section */
-.testimonial-section {
-    background-color: #333;
-    color: #ffffff;
-  }
-  
-  .testimonial-section h2 {
-    font-family: Space Grotesk;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 48.75px;
-    text-decoration-skip-ink: none;
-     text-align: left;
-    font-size: 56px;
-    font-weight: bold;
-  }
-  
-  .testimonial-section .divider {
-    width: 50%;
-    height: 2px;
-    background-color: #f5f6f6;
-    text-align: right;
-  }
-  .cd{
-    max-width: 1030px;
-    min-height: 330px;
-  }
-  
-  blockquote {
-    
-    font-size: 1.2rem;
-    font-style: italic;
-    line-height: 1.8;
-    margin-top: 100px;
-  }
-  
-  blockquote strong {
-    color: #00aaff; /* Highlighted text in the quote */
-  }
-  
-  .testimonial-section img {
-    border: 3px solid #00aaff; /* Border around the client's image */
-  }
-  .dis{
-    margin-left: 30px;
-    text-align: left;
-  }
-  
-  .testimonial-section small {
-    color: #cccccc;
-    font-size: 0.9rem;
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .bg{
-    background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
- z-index: -1;
-  }
-
-
-
-  /* Hero Section */
-.hero-section2 {
-    height: 100vh;
-  }
-  
-  .hero-section2 h2 {
-    font-size: 75px;
-    text-align: left;
-  }
-  .hero-section2 h1 {
-    font-size: 150px;
-    text-align: left;
-    font-weight: bold;
-  }
-  
-  .hero-section2 h1 span {
-    color: #00aaff;
-  }
-  
-  .hero-section2 .btn {
-    width: 300px;
-    font-size: 18px;
-    border: 1px solid #fff;
-    border-radius: 8px;
-    margin-top: 92px;
-  }
 
 
 
   /* Footer Section */
-.footer-section {
+  .footer-section {
     padding: 2rem 0; /* Padding for spacing */
   }
   
@@ -403,37 +103,38 @@ body {
   
   .footer-section p.text-center {
     margin-top: 1rem;
-  }
+}
 
 
-  
-  .bdg {
-    width: 100%; /* Use full width if required */
-    height: 300px; /* Adjust the height as needed */
-    background-color: #333; /* Ensure contrast with the text */
-    position: relative;
-    overflow: hidden; /* Hide parts of the text that overflow */
-   
-
-  }
-  
-  .bdg h1 {
-    position: absolute;
-    font-size: 300px;
-    
-    color: #fff; /* Text color for visibility */
-    opacity: 0.3; /* Semi-transparent effect */
-    letter-spacing: 9px;
-    transform: translate(-50%, -50%); /* Center alignment */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    text-align: center;
-    pointer-events: none; /* Ensure it doesn’t block clicks */
-  }
-  
-  
-
-
+@media only screen and (max-width: 540px) {
+  .founder-card {
+    max-width: 1123px;
+    min-height: 364px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20%;
+    padding: 0px;
+    margin: auto;
+}
+ .bn{
+  justify-content: center;
+  flex-direction: column-reverse;
+ }
+ .founder-card .cn {
+  width: 80%;
+  margin: auto 40px;
+}
+ .founder-card img {
+  border-radius: 50%;
+  width: 80%;
+  height: 85%;
+  margin: 40px auto;
+}
+.logo img{
+  width: 80%;
+}
+}
 
 
 

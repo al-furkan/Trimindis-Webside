@@ -19,50 +19,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/home.css">
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar-custom {
-      width: 95%;
-      background: #333;
-    }
-    .navbar-brand{
-      width: 25%; /* Adjust logo size */
-      margin-left: 10%;
-    }
-    .navbar-brand img {
-      width: 100%; /* Adjust logo size */
-      
-    }
-
-    .nav-link {
-      color: #fff !important;
-      padding: 0 15px;
-    }
-
-    .nav-link:hover {
-      color: #00bcd4 !important; /* Optional hover effect */
-    }
-
-    .btn-custom {
-      color: #fff;
-      border: 1px solid #fff;
-      margin-right: 10%;
-    }
-
-    .btn-custom:hover {
-      background-color: #7df391;
-    }
+    
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+    <div class="container-fluid w-100">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html"> 
         <img src="./image/1b9c460a19ee3114811b6bab4749a92b.png" alt="Logo" />
       </a>
 
@@ -85,18 +51,19 @@
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ourVentures.html">Our Ventures</a>
-          </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="./aboutUs.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contactUs.html">Contacts</a>
+            <a class="nav-link" href="./Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./project.html">Projects</a>
           </li>
         </ul>
         <!-- Button Positioned to the Far Right -->
-        <a class="btn btn-custom" href="#" >Work with Us</a>
+        <a class="btn btn-custom" href="./contactUs.html" >Work with Us</a>
       </div>
     </div>
   </nav>
@@ -107,16 +74,20 @@
    <section
    class="hero-section d-flex align-items-center justify-content-center text-center text-white">
    <div class="container">
-     <h1>“Empowering lives through transformative IT solutions, convenient
-       lifestyle services, and impactful mental health support.”</h1>
-     <hr style="border-top: 1px solid rgba(255, 255, 255, 0.25);">
+     <h1>Empowering lives through transformative IT solutions, convenient lifestyle services, and impactful mental health support.</h1>
+     <hr style=" width: 90%;border-top: 1px solid rgba(255, 255, 255, 0.25);">
      <div class="sr d-flex justify-content-between align-items-center mt-4">
-       <p>At Thriminds, we believe in improving lives by providing
-         personalized solutions across various domains.</p>
-       <a href="#services" class="btn">Our Services →</a>
+       <p>At Thriminds, we believe in improving lives by providing personalized solutions across various domains.</p>
+       <a href="./ourVentures.html?#service" class="btn">Our Services →</a>
      </div>
    </div>
  </section>
+
+
+
+
+
+ 
 
  <!-- About Us Section -->
  <section class="about-us-section py-5">
@@ -127,75 +98,145 @@
      </div>
 
      <p class="section-text">
-       Thriminds was founded by four passionate individuals aiming to make a
-       difference in
-       <span class="highlight">technology, food, and mental health</span>.
+      TriMindis is more than just a business conglomerate; we are a vision-driven enterprise committed to transforming ideas into impactful realities. Rooted in innovation and guided by values, we strive to deliver excellence across all our ventures – technology, creativity, and strategy. With a global outlook and local expertise, we empower businesses to thrive in an ever-changing world.
      </p>
-     <p class="section-text">
-       Thriminds was founded by four passionate individuals aiming to make a
-       difference in
-       <span class="highlight">technology, food, and mental health</span>.
-     </p>
-     <a href="#learn-more" class="btn btn-learn-more mt-3">Learn More →</a>
+     <a href="./aboutUs.html" class="btn btn-learn-more mt-3">Learn More →</a>
    </div>
  </section>
 
- <!-- Our Ventures Section -->
- <section class="our-ventures-section py-5">
-   <div class="container text-white">
-     <div class="hr">
-       <hr class="divider"><h2 class="section-title">Our Ventures</h2>
-     </div>
-     <div class="row g-4">
-       <!-- Venture 1 -->
-       <div class="col-lg-6 col-md-12">
-         <div class="venture-card">
-           <img src="./image/Container.png" alt="BizSpark IT"
-             class="img-fluid">
-           <div class="venture-content">
-             <h5 class="venture-title">BizSpark IT</h5>
-             <a href="#" class="venture-link">View Full Project →</a>
-           </div>
+
+
+
+
+  <!-- what we Offer  -->
+ 
+ <section class="container py-5">
+  <div class="ht">
+    <hr class="hr2">
+    <h2 class="titl">What We Offer</h2>
+  </div>
+  <div class="row g-4">
+      <div class="col-md-4">
+          <div class="service-card">
+              <div class="icon"><img src="./image/icon2.png" alt=""></div>
+              <h4>Technology Solutions</h4>
+              <p>Streamline your business operations with tailored IT solutions.</p>
+              <button class="btn btn-custom2">View Services →</button>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="service-card">
+              <div class="icon"><img src="./image/icon1.png" alt=""></div>
+              <h4>Creative Design</h4>
+              <p>Enhance your brand with world-class UI/UX and visual storytelling.</p>
+              <button class="btn btn-custom2">View Services →</button>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="service-card">
+              <div class="icon"><img src="./image/icon3.png" alt=""></div>
+              <h4>Strategic Growth</h4>
+              <p>Amplify your presence with targeted marketing strategies.</p>
+              <button class="btn btn-custom2">View Services →</button>
+          </div>
+      </div>
+  </div>
+  <div class="text-center mt-4">
+      <button class="btn btnls btn-custom2">Discover Our Services →</button>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+ <!-- Our PROJECTS Section -->
+ <section class="container projects-section">
+  <div class="hr">
+    <h2 class="section-title">Our Projects</h2>
+    <hr class="divider">
+  </div>
+  <div class="scroll-container">
+      <div class="project-card">
+        <div class="srimg">
+          <img src="./image/abc.png" alt="Mobile App">
+        </div>
+          <div class="project-info">
+              <h5>Mobile App</h5>
+              <p>Latest health tracking application.</p>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="srimg">
+          <img src="./image/mobile app for jajabor.png" alt="E-commerce">
          </div>
-       </div>
-       <!-- Venture 2 -->
-       <div class="col-lg-6 col-md-12">
-         <div class="venture-card">
-           <img src="./image/c18a57a9f36276589ade30af3a96a188.png" alt="Chef"
-             class="img-fluid">
-           <div class="venture-content">
-             <h5 class="venture-title">Chef</h5>
-             <a href="#" class="venture-link">Virtual Project →</a>
-           </div>
+          <div class="project-info">
+              <h5>E-commerce Platform</h5>
+              <p>Modern shopping experience.</p>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="srimg">
+          <img src="./image/Frame 8.png" alt="Business Website">
+        </div>
+          <div class="project-info">
+              <h5>Business Website</h5>
+              <p>Innovative corporate solutions.</p>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="srimg">
+          <img src="./image/E-commerce app.png" alt="More Projects">
          </div>
-       </div>
-       <!-- Venture 3 -->
-       <div class="col-lg-6 col-md-12">
-         <div class="venture-card">
-           <img src="./image/04c4e6a0b60c26d1c758b22ebe383617.png"
-             alt="Mindcase" class="img-fluid">
-           <div class="venture-content">
-             <h5 class="venture-title">Mindcase</h5>
-             <a href="#" class="venture-link">View Full Project →</a>
-           </div>
-         </div>
-       </div>
-       <!-- Venture 4 -->
-       <div class="col-lg-6 col-md-12">
-         <div class="venture-card">
-           <img src="./image/3a142e68bddf542d11f20bd69d4c5b79.jpg"
-             alt="Open Group" class="img-fluid">
-           <div class="venture-content">
-             <h5 class="venture-title">Open Group</h5>
-             <a href="#" class="venture-link">Virtual Project →</a>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="text-center mt-4">
-       <a href="#" class="btn btn-more-projects">More Projects →</a>
-     </div>
-   </div>
+          <div class="project-info">
+              <h5>View All Projects</h5>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+ <section class="container projects-section">
+   <div class="text-white">
+     
+    </div>  
+      <div class="scroll-container">
+
+          <div class="project-card">
+              
+              <div class="project-info">
+                  <h5>Mobile App</h5>
+                  <p>Latest health tracking application.</p>
+              </div>
+          </div>
+
+          <div class="project-card">
+             
+              <div class="project-info">
+                  <h5>E-commerce Platform</h5>
+                  <p>Modern shopping experience.</p>
+              </div>
+          </div>
+          <div class="project-card">
+              
+              <div class="project-info">
+                  <h5>Business Website</h5>
+                  <p>Innovative corporate solutions.</p>
+              </div>
+          </div>
+          <div class="project-card">
+            
+              <div class="project-info">
+                  <h5>View All Projects</h5>
+              </div>
+          </div>
+      </div>
  </section>
 
  <section class="testimonial-section text-white">
@@ -236,10 +277,78 @@
 
 
 
+
+ <section class="container blog-section">
+  
+  <div class="d-flex justify-content-between mb-3">
+    <h2 class="text-sm-left mb-4">Upper Blog & Articles</h2>
+      <button class="btn btn-secondary">More Blogs</button>
+  </div>
+  <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="blog-card">
+                          <img src="./image/blog2 (1).png" alt="SEO Strategy">
+                          <div class="blog-content">
+                              <h5 class="blog-title">SEO is not about overnight results. It's a long-term strategy.</h5>
+                              <p class="author-info">By K.M Arafat - Jan 15, 2025 - 5 min read</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="blog-card">
+                          <img src="./image/blog2 (2).png" alt="UI/UX Design">
+                          <div class="blog-content">
+                              <h5 class="blog-title">Top UI/UX Design Hacks You Must Learn in 2025!</h5>
+                              <p class="author-info">By Md. Marzur Islam - Jan 16, 2025 - 8 min read</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="blog-card">
+                          <img src="./image/blog2 (1).png" alt="Marketing Trends">
+                          <div class="blog-content">
+                              <h5 class="blog-title">Latest Marketing Trends for 2025</h5>
+                              <p class="author-info">By John Doe - Jan 18, 2025 - 6 min read</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="blog-card">
+                          <img src="./image/blog2 (1).png" alt="Content Strategy">
+                          <div class="blog-content">
+                              <h5 class="blog-title">Building a Winning Content Strategy</h5>
+                              <p class="author-info">By Jane Smith - Jan 20, 2025 - 7 min read</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+</section>
+
+
+
+
  <section class="bg">
    <!-- Hero Section -->
    <section class="hero-section2 text-center text-white">
-     <div class="container d-flex flex-column  h-100">
+     <div class="container d-flex flex-column ">
        <h2>Have a project?</h2>
        <h1>Let’s make it!</h1>
        <button class="btn btn-outline-light mt-4">Tell us about your
@@ -297,9 +406,6 @@
 
  </section>
 
- <div class="bdg">
-  <h1>TriMindis</h1>
-</div>
 
   <!-- Include Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>

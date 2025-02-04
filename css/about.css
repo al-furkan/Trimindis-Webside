@@ -1,0 +1,244 @@
+
+
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-section h2 {
+    margin-left: 102px;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hr{
+    display: flex;
+    gap: 36px;
+    justify-content: space-between;
+  }
+  .hr .section-title {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .hr .divider {
+    width: 60%;
+    height: 2px;
+    background: #fff;
+    margin-top: 35px;
+  }
+
+.logo-container {
+  background-image: url('../image/Frame\ 6\ \(1\).jpg'); /* Replace with actual image URL */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.about-heading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.divider {
+    width: 100px;
+    height: 2px;
+    background: white;
+    margin: 10px 0 20px;
+}
+.about-text {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.hederh{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+.hederh  .divider{
+    width: 67%;
+    height: 2px;
+    background: white;
+    margin-top: 75px;
+}
+.hederh h2{
+max-width: 480px;
+color: #FFF;
+font-family: "Space Grotesk";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 150px; /* 234.375% */
+letter-spacing: -6.25px;
+}
+
+
+
+
+
+
+
+
+
+.hederhr{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+.hederhr  .divider{
+   width: 50%;
+    text-align: left;
+    height: 2px;
+    background: white;
+    margin-top: 75px;
+}
+.hederhr h2{
+max-width: 500px;
+color: #FFF;
+font-family: "Space Grotesk";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 150px; /* 234.375% */
+letter-spacing: -6.25px;
+}
+
+
+
+
+
+
+.core-values {
+    padding: 50px 0;
+}
+
+.core-values h2 {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.core-values .row {
+    justify-content: center;
+}
+
+.core-values .icon {
+    font-size: 24px;
+    color: cyan;
+    margin-right: 10px;
+}
+
+.core-values p {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 18.594px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 172.101% */
+}
+
+
+
+
+
+
+.founders-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.founder-card {
+    text-align: center;
+    padding: 20px;
+}
+.founder-card img {
+    width: 253px;
+    height: 327px;
+    border-radius: 50%;
+    background: #333;
+    display: block;
+    margin: 0 auto;
+}
+.founder-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.founder-desc {
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .hederh{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+    }
+    .hederh  .divider{
+        width: 60%;
+        height: 2px;
+        background: white;
+        margin-top: 75px;
+    }
+    .hederh h2{
+    width: 35%;
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    line-height: 150px; /* 234.375% */
+    }
+
+
+    .hederhr{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 40px;
+    }
+    .hederhr  .divider{
+        width: 55%;
+        text-align: left;
+        height: 2px;
+        background: white;
+        margin-top: 75px;
+    }
+    .hederhr h2{
+    width: 480px;
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px; /* 234.375% */
+   
+    }
+    
+    
+  }
+
+
+
+
+

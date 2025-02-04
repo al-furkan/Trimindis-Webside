@@ -21,11 +21,11 @@
     }
 
     .navbar-custom {
-      width: 95%;
+      width: 100%;
       background: #333;
     }
     .navbar-brand{
-      width: 25%; /* Adjust logo size */
+      width: 15%; /* Adjust logo size */
       margin-left: 10%;
     }
     .navbar-brand img {
@@ -36,6 +36,7 @@
     .nav-link {
       color: #fff !important;
       padding: 0 15px;
+      text-transform: uppercase;
     }
 
     .nav-link:hover {
@@ -54,10 +55,10 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="./image/1b9c460a19ee3114811b6bab4749a92b.png" alt="Logo" />
       </a>
 
@@ -74,27 +75,28 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Navbar Links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto me-3"> <!-- Positioned to the right -->
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ourVentures.html">Our Ventures</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./aboutUs.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contactUs.html">Contacts</a>
-          </li>
-        </ul>
-        <!-- Button Positioned to the Far Right -->
-        <a class="btn btn-custom" href="#" >Work with Us</a>
-      </div>
+     <!-- Navbar Links -->
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto me-3"> <!-- Positioned to the right -->
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="./aboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./project.html">Projects</a>
+        </li>
+      </ul>
+      <!-- Button Positioned to the Far Right -->
+      <a class="btn btn-custom" href="./contactUs.html" >Work with Us</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
 
@@ -160,7 +162,7 @@
     <section class="bg">
         <!-- Hero Section -->
         <section class="hero-section2 text-center text-white">
-          <div class="container d-flex flex-column  h-100">
+          <div class="container d-flex flex-column ">
             <h2>Have a project?</h2>
             <h1>Let’s make it!</h1>
             <button class="btn btn-outline-light mt-4">Tell us about your
