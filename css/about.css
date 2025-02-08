@@ -38,18 +38,16 @@ h2{
     margin-top: 35px;
   }
 
-.logo-container {
-  background-image: url('../image/Frame\ 6\ \(1\).jpg'); /* Replace with actual image URL */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  .logo-container {
+    width: 100%;
+    min-height: 400px; 
+    margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+.logo-container img{
+    border-radius: 10px;
 }
 .about-heading {
     font-size: 26px;
