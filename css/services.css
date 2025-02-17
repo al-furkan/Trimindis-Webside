@@ -70,7 +70,7 @@
 }
 
 .service-box p {
-    width: 100% !important ;
+    width: 100% !important;
     color: #FFF;
     font-family: "Space Grotesk";
     font-size: 20px;
@@ -122,32 +122,34 @@
 
 .srbox {
     margin-bottom: 50px;
-  }
-  
-  /* Make images rounder and better aligned */
-  .srbox img {
-  }
+}
+
+/* Make images rounder and better aligned */
+.srbox img {}
+
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
     .srbox {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
 
-  
+
     .srbox img {
-      margin-top: 20px;
+        margin-top: 20px;
     }
+
     .service-box {
         width: 100%;
     }
-  }
+}
+
 /* - why busnesses Choose Trimindise  start  -- */
 
 .choose {
     width: 100%;
     text-align: center;
-        /* background: url('../image/Background.png') no-repeat center center/cover;
+    /* background: url('../image/Background.png') no-repeat center center/cover;
     max-width: 1440px;
     min-height: 700px; */
 }
@@ -174,9 +176,10 @@
     margin-top: 150px;
 }
 
-.contact-input{
+.contact-input {
     padding: 40px;
 }
+
 .form-control {
     background: transparent;
     border: none;
@@ -189,25 +192,26 @@
 .form-control::placeholder {
     color: #bbb;
 }
-.form-check-label{
+
+.form-check-label {
     color: #FFF;
     font-family: "Space Grotesk";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
 }
 
 
 .input-btn {
-        background: white;
-        color: black;
-        border-radius: 5px;
-        padding: 10px 20px;
-        margin: 0;
-        margin-top: 30px;
-        float: right;
-    }
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0;
+    margin-top: 30px;
+    float: right;
+}
 
 
 /* Need Customised Plan or Have Any Inquiry? */
@@ -215,34 +219,38 @@
 /* Have Questions? Start */
 
 
-    .faq-section {
-        max-width: 800px;
-        margin: auto;
-        padding: 50px 20px;
-        text-align: center;
-    }
-    .accordion-item {
-        background: #333;
-        border: none;
-        margin-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.24);
-    }
-    .accordion-button {
-        background: #333;
-        color: white;
-        border: none;
-        box-shadow: none;
-    }
-    .accordion-button::after {
-        filter: invert(1);
-    }
-    .accordion-body {
-        background: #333;
-        color: #ddd;
-    }
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.accordion-item {
+    background: #333;
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.accordion-button {
+    background: #333;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-body {
+    background: #333;
+    color: #ddd;
+}
 
 
 
 
-    
+
 /* Have Questions? Start */

@@ -1,17 +1,18 @@
-.header{
+.header {
     width: 100%;
     margin: auto;
     margin-bottom: 50px;
 
 }
-.header .hr{
+
+.header .hr {
     width: 33%;
     height: 2px;
     background-color: #FFF;
     margin-top: 30px;
 }
 
-.header h2{
+.header h2 {
     color: #FFF;
     font-family: "Space Grotesk";
     font-size: 50px;
@@ -28,21 +29,26 @@
     margin-bottom: 50px;
     position: relative;
 }
+
 .portfolio-item img {
     width: 100%;
 }
+
 .portfolio-item h5 {
     margin-top: 10px;
 }
+
 .view-project {
     color: #FFF;
     text-decoration: none;
     border-bottom: 2px solid #FFF;
     font-weight: bold;
 }
+
 .view-project:hover {
     text-decoration: underline;
 }
-.cn{
-    margin-top: 50px;
+
+.cn {
+    margin-top: 30px;
 }

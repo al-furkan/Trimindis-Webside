@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
@@ -20,16 +19,20 @@ body {
   left: 0;
   min-height: 82px;
 }
-.navbar-brand{
-  width: 15%; /* Adjust logo size */
+
+.navbar-brand {
+  width: 15%;
+  /* Adjust logo size */
   margin-left: 10%;
 
-  
+
 }
+
 .navbar-brand img {
-  width: 100%; /* Adjust logo size */
- 
-  
+  width: 100%;
+  /* Adjust logo size */
+
+
 }
 
 .nav-link {
@@ -39,7 +42,8 @@ body {
 }
 
 .nav-link:hover {
-  color: #00bcd4 !important; /* Optional hover effect */
+  color: #00bcd4 !important;
+  /* Optional hover effect */
 }
 
 .btn-custom {
@@ -51,17 +55,18 @@ body {
 .btn-custom:hover {
   background-color: #7df391;
 }
+
 /* General Body Styling */
 
 
 
 
-.bg{
+.bg {
   background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
 }
 
- /* Hero Section */
- .hero-section2 {
+/* Hero Section */
+.hero-section2 {
   min-height: 60vh;
 }
 
@@ -69,6 +74,7 @@ body {
   font-size: 75px;
   text-align: left;
 }
+
 .hero-section2 h1 {
   font-size: 150px;
   text-align: left;
@@ -90,45 +96,49 @@ body {
 
 
 
-  /* Footer Section */
-  .footer-section {
-    padding: 2rem 0; /* Padding for spacing */
-    position: relative;
-  }
-  .footer-section h5, .footer-section h6 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-  
-  .footer-section ul {
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  .footer-section ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    opacity: 0.8; /* Slight transparency for links */
-    transition: opacity 0.3s;
-  }
-  
-  .footer-section ul li a:hover {
-    opacity: 1; /* Full visibility on hover */
-  }
-  
-  .footer-section p, .footer-section hr {
-    color: #cccccc;
-    font-size: 0.9rem;
-  }
-  
-  .footer-section hr {
-    border-top: 1px solid #555;
-    margin-top: 2rem;
-  }
-  
-  .footer-section p.text-center {
-    margin-top: 1rem;
+/* Footer Section */
+.footer-section {
+  padding: 2rem 0;
+  /* Padding for spacing */
+  position: relative;
+}
+
+.footer-section h5, .footer-section h6 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.8;
+  /* Slight transparency for links */
+  transition: opacity 0.3s;
+}
+
+.footer-section ul li a:hover {
+  opacity: 1;
+  /* Full visibility on hover */
+}
+
+.footer-section p, .footer-section hr {
+  color: #cccccc;
+  font-size: 0.9rem;
+}
+
+.footer-section hr {
+  border-top: 1px solid #555;
+  margin-top: 2rem;
+}
+
+.footer-section p.text-center {
+  margin-top: 1rem;
 }
 
 
@@ -142,58 +152,54 @@ body {
     gap: 20%;
     padding: 0px;
     margin: auto;
-}
- .bn{
-  justify-content: center;
-  flex-direction: column-reverse;
- }
- .founder-card .cn {
-  width: 80%;
-  margin: auto 40px;
-}
- .founder-card img {
-  border-radius: 50%;
-  width: 80%;
-  height: 85%;
-  margin: 40px auto;
-}
-.logo img{
-  width: 80%;
-}
-.footer-section .text-right{
-text-align: center;
+  }
 
+  .bn {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .founder-card .cn {
+    width: 80%;
+    margin: auto 40px;
+  }
+
+  .founder-card img {
+    border-radius: 50%;
+    width: 80%;
+    height: 85%;
+    margin: 40px auto;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  .footer-section .text-right {
+    text-align: center;
+
+  }
+
+  .footer-section .list-unstyled {
+    display: block;
+    justify-content: space-around;
+    padding: 20px;
+  }
 }
-.footer-section .list-unstyled{
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-}
-.lastlogo{
+
+.lastlogo {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.lastlogo img{
-  width: 95%;
+
+.lastlogo img {
+  width: 100%;
   height: 100%;
   padding: 0px 33px;
+  margin-bottom: -3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+.navbar-nav .nav-link {
+  margin: 20px;
+}
