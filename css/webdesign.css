@@ -123,6 +123,252 @@ service-We Offer */
 }
 
 
+/* Need Customised Plan or Have Any Inquiry? */
+
+
+.portfolio-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.portfolio-item h5 {
+    margin-top: 10px;
+}
+
+.view-project {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 2px solid #FFF;
+    font-weight: bold;
+}
+
+.view-project:hover {
+    text-decoration: underline;
+}
+
+.cn {
+    margin-top: 30px;
+}
+
+/* why section Start */
+.why-us {
+    background-color: #333;
+    /* Dark background */
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.stat-box h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.stat-box p {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.stat-box:hover {
+    background-color: #333;
+    transform: translateY(-5px);
+}
+
+/* why section End */
+/* Have Questions? Start */
+
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    /* 111.429% */
+    margin-bottom: 60px;
+}
+
+.faq-section h2 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 23.063px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 138.753% */
+}
+
+.accordion-item {
+    background: #333;
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.accordion-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-body {
+    background: #333;
+    color: #ddd;
+}
+
+.faq-section {
+    background-color: #333 !important;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: #333 !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 .25rem #333 !important;
+}
+
+.accordion-body {
+    background-color: #333 !important;
+    color: #ffffff !important;
+}
+
+
+/* Have Questions? Start */
+.Masterpiece h1 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 100px 0;
+}
+
+.Wow {
+    /* padding: -100px; */
+}
+
+.hero-section23 {
+    background: url('../image/CTA.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+    padding: 75px 16px;
+}
+
+.hero-content23 h1 {
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.59);
+    font-family: "Space Grotesk";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    /* 117.647% */
+    letter-spacing: -1.36px;
+    margin: 80px 0;
+}
+
+.hero-content23 p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.hero-content23 .btn-custom {
+    background-color: #5988FF;
+    border: none;
+    color: #fff;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 36px;
+    border-radius: 9px;
+    border: 1px solid #5988FF;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #357ab8;
+}
+
+
+.cd {
+    max-width: 100%;
+    min-height: auto;
+    margin-bottom: 100px;
+}
+
+blockquote {
+
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin-top: 100px;
+}
+
+blockquote strong {
+    color: #00aaff;
+    /* Highlighted text in the quote */
+}
+
+.testimonial-section img {
+    border: 3px solid #00aaff;
+    /* Border around the client's image */
+}
+
+.dis {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.testimonial-section small {
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+
+
 
 
 

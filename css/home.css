@@ -564,8 +564,8 @@ body {
 }
 
 .cd {
-  max-width: 1030px;
-  min-height: 330px;
+  max-width: 100%;
+  min-height: auto;
 }
 
 blockquote {
@@ -708,7 +708,33 @@ blockquote strong {
 
 }
 
+.portfolio-item {
+  margin-bottom: 50px;
+  position: relative;
+}
 
+.portfolio-item img {
+  width: 100%;
+}
+
+.portfolio-item h5 {
+  margin-top: 10px;
+}
+
+.view-project {
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: 2px solid #FFF;
+  font-weight: bold;
+}
+
+.view-project:hover {
+  text-decoration: underline;
+}
+
+.cn {
+  margin-top: 30px;
+}
 
 
 
@@ -834,8 +860,7 @@ blockquote strong {
 .emotions-slider {
   --color-gray: #818181;
   --color-gray-dark: #1e1e1e;
-
-  padding-inline: 98px;
+  padding-inline: 40px;
   position: relative;
 }
 

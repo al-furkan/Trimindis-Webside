@@ -93,7 +93,60 @@ body {
   margin-top: 92px;
 }
 
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
 
+}
+
+.track {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 300ms ease-in-out;
+}
+
+.slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 2rem;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  border: none;
+  font-size: 2rem;
+  background: none;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+.carousel button:hover {
+  background: rgb(0, 0, 0, 0.1);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+  color: #fff;
+}
 
 
 /* Footer Section */

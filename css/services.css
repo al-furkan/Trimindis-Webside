@@ -1,5 +1,5 @@
 .hero-section {
-    background: url('../image/service\ hero\ image.jpg') no-repeat center center/cover;
+    background: url('../image/service\ page\ hero\ image.jpg') no-repeat center center/cover;
     padding: 100px 20px;
     text-align: left;
     position: relative;
@@ -145,13 +145,47 @@
 }
 
 /* - why busnesses Choose Trimindise  start  -- */
+.busness {
+    background: url('../image/Choose\ Background.jpg') no-repeat center center/cover;
 
-.choose {
-    width: 100%;
-    text-align: center;
-    /* background: url('../image/Background.png') no-repeat center center/cover;
-    max-width: 1440px;
-    min-height: 700px; */
+}
+
+.container {
+    padding: 50px 15px;
+}
+
+.container h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card-title {
+    color: #05C2F4;
+    font-family: "Space Grotesk";
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.2px;
+    /* 137.521% */
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 18.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;/
 }
 
 /* - why busnesses Choose Trimindise  End  -- */
@@ -226,6 +260,28 @@
     text-align: center;
 }
 
+.faq-section h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    /* 111.429% */
+    margin-bottom: 60px;
+}
+
+.faq-section h2 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 23.063px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 138.753% */
+}
+
 .accordion-item {
     background: #333;
     border: none;
@@ -233,8 +289,8 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.accordion-button {
-    background: #333;
+.accordion-button {
+    background-color: #333;
     color: white;
     border: none;
     box-shadow: none;
@@ -247,6 +303,22 @@
 .accordion-body {
     background: #333;
     color: #ddd;
+}
+
+.faq-section {
+    background-color: #333 !important;
+}
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: #333 !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 .25rem #333 !important;
+}
+
+.accordion-body {
+    background-color: #333 !important;
+    color: #ffffff !important;
 }
 
 
