@@ -1,17 +1,18 @@
-h2{
+h2 {
     color: #FFF;
     text-align: right;
     font-family: "Space Grotesk";
     font-size: 56px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150px; /* 267.857% */
-    letter-spacing: -6.25px;  
+    line-height: 150px;
+    /* 267.857% */
+    letter-spacing: -6.25px;
 }
 
 .about-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 0px 20px;
 }
 
 .about-section h2 {
@@ -20,46 +21,51 @@ h2{
     margin-bottom: 20px;
 }
 
-.hr{
+.hr {
     display: flex;
     gap: 36px;
     justify-content: space-between;
-  }
-  .hr .section-title {
+}
+
+.hr .section-title {
     font-size: 56px;
     font-weight: 600;
     margin-bottom: 50px;
-  }
-  
-  .hr .divider {
+}
+
+.hr .divider {
     width: 60%;
     height: 2px;
     background: #fff;
     margin-top: 35px;
-  }
-
-  .logo-container {
-    width: 100%;
-    min-height: 400px; 
-    margin-top: 40px;
-   display: flex;
-   justify-content: center;
-   padding: 20px;
 }
-.logo-container img{
+
+.logo-container {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-container img {
     border-radius: 10px;
 }
+
 .about-heading {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .divider {
     width: 100px;
     height: 2px;
     background: white;
     margin: 10px 0 20px;
 }
+
 .about-text {
     background: #333;
     padding: 15px;
@@ -70,27 +76,30 @@ h2{
 }
 
 
-.hederh{
+.hederh {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 40px;
 }
-.hederh  .divider{
+
+.hederh .divider {
     width: 67%;
     height: 2px;
     background: white;
     margin-top: 75px;
 }
-.hederh h2{
-color: #FFF;
-font-family: "Space Grotesk";
-font-size: 64px;
-font-style: normal;
-font-weight: 400;
-line-height: 150px; /* 234.375% */
-letter-spacing: -6.25px;
-float: right;
+
+.hederh h2 {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px;
+    /* 234.375% */
+    letter-spacing: -6.25px;
+    float: right;
 }
 
 
@@ -101,28 +110,31 @@ float: right;
 
 
 
-.hederhr{
+.hederhr {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 40px;
 }
-.hederhr  .divider{
-   width: 50%;
+
+.hederhr .divider {
+    width: 50%;
     text-align: left;
     height: 2px;
     background: white;
     margin-top: 75px;
 }
-.hederhr h2{
-max-width: 500px;
-color: #FFF;
-font-family: "Space Grotesk";
-font-size: 64px;
-font-style: normal;
-font-weight: 400;
-line-height: 150px; /* 234.375% */
-letter-spacing: -6.25px;
+
+.hederhr h2 {
+    max-width: 500px;
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px;
+    /* 234.375% */
+    letter-spacing: -6.25px;
 }
 
 
@@ -135,13 +147,14 @@ letter-spacing: -6.25px;
 }
 
 .core-values h2 {
-color: #FFF;
-font-family: "Space Grotesk";
-font-size: 56px;
-font-style: normal;
-font-weight: 400;
-line-height: 150px; /* 267.857% */
-letter-spacing: -6.25px;
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150px;
+    /* 267.857% */
+    letter-spacing: -6.25px;
 }
 
 .core-values .row {
@@ -160,7 +173,8 @@ letter-spacing: -6.25px;
     font-size: 18.594px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 172.101% */
+    line-height: 32px;
+    /* 172.101% */
 }
 
 
@@ -172,10 +186,12 @@ letter-spacing: -6.25px;
     text-align: center;
     padding: 50px 20px;
 }
+
 .founder-card {
     text-align: center;
     padding: 20px;
 }
+
 .founder-card img {
     width: 253px;
     height: 327px;
@@ -184,11 +200,13 @@ letter-spacing: -6.25px;
     display: block;
     margin: 0 auto;
 }
+
 .founder-title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
 }
+
 .founder-desc {
     font-size: 14px;
     color: #ccc;
@@ -201,55 +219,56 @@ letter-spacing: -6.25px;
 
 
 @media only screen and (max-width: 1000px) {
-    .hederh{
+    .hederh {
         display: flex;
         justify-content: space-between;
         width: 100%;
         gap: 20px;
     }
-    .hederh  .divider{
+
+    .hederh .divider {
         width: 60%;
         height: 2px;
         background: white;
         margin-top: 75px;
     }
-    .hederh h2{
-    width: 35%;
-    color: #FFF;
-    font-family: "Space Grotesk";
-    font-size: 40px;
-    line-height: 150px; /* 234.375% */
+
+    .hederh h2 {
+        width: 35%;
+        color: #FFF;
+        font-family: "Space Grotesk";
+        font-size: 40px;
+        line-height: 150px;
+        /* 234.375% */
     }
 
 
-    .hederhr{
+    .hederhr {
         display: flex;
         justify-content: space-between;
         width: 100%;
         gap: 40px;
     }
-    .hederhr  .divider{
+
+    .hederhr .divider {
         width: 55%;
         text-align: left;
         height: 2px;
         background: white;
         margin-top: 75px;
     }
-    .hederhr h2{
-    width: 480px;
-    color: #FFF;
-    font-family: "Space Grotesk";
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150px; /* 234.375% */
-   
+
+    .hederhr h2 {
+        width: 480px;
+        color: #FFF;
+        font-family: "Space Grotesk";
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150px;
+        /* 234.375% */
+
     }
-    
-    
-  }
 
 
-
-
-
+}

@@ -58,6 +58,11 @@
     margin-bottom: 20px;
 }
 
+.service-box a:hover {
+    color: #05C2F4;
+
+}
+
 .service-box h3 {
     color: #FFF;
     font-family: "Space Grotesk";
@@ -117,8 +122,6 @@
     display: inline-block;
     font-weight: bold;
 }
-
-
 
 .srbox {
     margin-bottom: 50px;

@@ -53,7 +53,8 @@ body {
 }
 
 .btn-custom:hover {
-  background-color: #7df391;
+  background-color: #00bcd4 !important;
+  color: #fff;
 }
 
 /* General Body Styling */

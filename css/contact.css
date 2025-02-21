@@ -92,7 +92,7 @@ form {
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: #333 !important;
   color: white;
   border: none;
   border-bottom: 2px solid #555;
@@ -101,7 +101,7 @@ form {
 }
 
 .form-control:focus {
-  background-color: transparent;
+  background-color: transparent !important;
   color: white;
   border-bottom: 2px solid #007bff;
   outline: none;
@@ -110,6 +110,7 @@ form {
 .form-check-input,
 .form-check-label {
   margin-top: 30px;
+  background-color: #333 !important;
 }
 
 .btn-submit {
@@ -120,11 +121,11 @@ form {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.7px;
-  border: 1px solid #4CA3BA;
+  border: 1px solid #333;
 }
 
 .btn-submit:hover {
-  background-color: #4CA3BA;
+  background-color: #333;
 }
 
 @media screen and (max-width: 768px) {
