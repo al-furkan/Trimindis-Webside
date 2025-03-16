@@ -103,12 +103,14 @@ form {
 .form-control:focus {
   background-color: transparent !important;
   color: white;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #f3f4f6;
   outline: none;
 }
 
 .form-check-input,
 .form-check-label {
+  border: none;
+  outline: none;
   margin-top: 30px;
   background-color: #333 !important;
 }
@@ -121,11 +123,12 @@ form {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.7px;
-  border: 1px solid #333;
+  border: 1px solid #007bff;
 }
 
 .btn-submit:hover {
-  background-color: #333;
+  background-color: #007bff;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {

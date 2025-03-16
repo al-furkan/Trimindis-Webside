@@ -203,3 +203,60 @@ h5 {
         text-align: center;
     }
 }
+
+.newsletter-section {
+    background-image: url("../image/mask.png")no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    overflow: hidden;
+}
+
+.newsletter-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.newsletter-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-control {
+    border-radius: 25px 0 0 25px;
+    padding: 12px 15px;
+    border: none;
+}
+
+.btn-subscribe {
+    border-radius: 0 25px 25px 0;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+
+.btn-subscribe:hover {
+    background-color: #007bff;
+}
+
+/* Responsive: Stack form on small screens */
+@media (max-width: 576px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    .form-control {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .btn-subscribe {
+        border-radius: 25px;
+    }
+}

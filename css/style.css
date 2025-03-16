@@ -11,6 +11,15 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  /* 87.054% */
+}
+
 .navbar-custom {
   width: 100%;
   background: #333;
@@ -64,11 +73,13 @@ body {
 
 .bg {
   background: linear-gradient(0deg, #0B3C49 0%, #333333 94%);
+  width: 100%;
 }
 
 /* Hero Section */
 .hero-section2 {
   min-height: 60vh;
+  margin-bottom: 50px;
 }
 
 .hero-section2 h2 {

@@ -376,6 +376,160 @@ blockquote strong {
     font-size: 0.9rem;
 }
 
+/****************** Services We Offer**************/
+.text-left {
+    color: #FFF;
+    font-family: "Space Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+}
+
+.service-item .tittle-text {
+    color: #7D7D82;
+    font-family: "Space Grotesk";
+    font-size: 63.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    /* 119.216% */
+}
+
+
+.service-item .tittle-text span {
+    color: #05C2F4;
+    font-family: "Space Grotesk";
+    font-size: 23.625px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.2px;
+    /* 132.063% */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.service-item:hover {
+    background-color: #333;
+}
+
+.service-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    margin: auto;
+    font-size: 23.625px;
+
+}
+
+.service-item:hover+.service-content {
+    max-height: 300px;
+}
+
+.service-img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.service-item:hover .service-img {
+    transform: scale(1.1) rotate(-10deg);
+    width: 220px;
+    height: 150px;
+
+}
+
+
+
+
+
+.dvr {
+    border-bottom: 2px solid gray;
+    margin: 20px 0;
+}
+
+
+@media (min-width: 768px) {
+    .service-item {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .service-content {
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .service-item .tittle-text {
+        font-size: 32px;
+    }
+
+    .service-img {
+        max-width: 30%;
+        height: 90px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* what we Offer */
+.ht {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+
+    margin-bottom: 75px;
+}
+
+.ht .hr2 {
+    width: 60%;
+}
+
+.ht .titl {
+    width: 35%;
+    color: #FFF;
+    font-family: "S60pace Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48.75px;
+    /* 87.054% */
+
+}
+
+.Masterpiece .img {
+    margin: auto;
+    width: 70%;
+}
+
 
 
 
